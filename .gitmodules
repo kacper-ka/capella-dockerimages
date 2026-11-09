@@ -1,3 +1,6 @@
 # SPDX-FileCopyrightText: Copyright DB InfraGO AG and contributors
 #
 # SPDX-License-Identifier: CC0-1.0
+[submodule "capella-mcp"]
+	path = capella-mcp
+	url = git@github.com:Gaserzaghloul/Capella_MCP-Graduation-Project-.git
