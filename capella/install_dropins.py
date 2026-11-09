@@ -131,15 +131,8 @@ def install_update_sites(
 
     process = subprocess.Popen(
         [
-            "/opt/capella/capella",
-            "-consoleLog",
-            "-application",
-            "org.eclipse.equinox.p2.director",
-            "-noSplash",
-            *repositories_command,
-            "-installIU",
-            ",".join(install_iu),
-            *vm_args,
+            *command,
+            *vm_args
         ],
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
